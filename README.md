@@ -31,64 +31,45 @@ A simple MERN stack e-commerce application that allows users to browse products,
 
 ### 1. Clone Repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/nexora-commerce.git
 cd nexora-commerce
-\`\`\`
+```
 
 ### 2. Backend Setup
 
-\`\`\`bash
+```bash
 cd Backend
 npm install
-\`\`\`
+```
 
 #### Create .env
 
-\`\`\`bash
+```bash
 PORT=5000
 MONGO_URI=mongodb+srv://<your-mongo-uri>
-\`\`\`
+```
 
 #### Run Server
 
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 ---
 
 ### 3. Frontend Setup
 
-\`\`\`bash
+```bash
 cd ../Frontend
 npm install
-\`\`\`
+```
 
 #### Run Frontend
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
-
----
-
-## 🧩 Folder Structure
-
-\`\`\`
-Nexora/
-├── Backend/
-│ ├── models/
-│ ├── routes/
-│ ├── controllers/
-│ └── server.js
-└── Frontend/
-├── src/
-│ ├── components/
-│ ├── types/
-│ └── App.tsx
-└── index.css
-\`\`\`
+```
 
 ---
 
